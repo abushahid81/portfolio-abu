@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+    .border-z{
+        margin-right: 13px;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+     .border-media{
+        margin-left: -22px;
+        margin-right: -22px;
+        /* text-align: center; */
+    }
+    .border-op{
+        margin-left: 50px;
+        margin-right: -10px;
+    }
+    .border-form{
+        margin-left: 2px;
+        margin-right: -4px;
+    }
+    .media-1{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .media-2{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .media-3{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .media-4{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .media-5{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .media-6{
+        width: 35px;
+        height: 35px;
+       
+    }
+    
+    
+}
+/* @media only screen and (min-width: 768px) {
+    .border-z{
+        margin-right: 13px;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+} */
