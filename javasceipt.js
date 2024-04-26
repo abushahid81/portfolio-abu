@@ -3,7 +3,7 @@ let typingEffect = new Typed("#typo",{
     loop:true,
     typeSpeed:50,
     backSpeed:50,
-    // backDelay:1000,
+    backDelay:1000,
 
 });
 
