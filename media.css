@@ -62,7 +62,7 @@
     
     
 }
-@media (min-width: 600px) and (max-width: 850px){
+@media (max-width: 600px) and (max-width: 850px){
     .border-z{
         margin-right: -7px;
         margin-left: -68px;
