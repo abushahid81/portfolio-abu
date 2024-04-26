@@ -64,10 +64,10 @@ margin-right: 20px;
     
     
 }
- /* @media only screen and (min-width: 768px) {
+@media (min-width: 600px) and (max-width: 850px){
     .border-z{
         margin-right: -5px;
         margin-left: -70px;
         margin-top: 20px;
     }
-}  */
+} 
