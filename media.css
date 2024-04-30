@@ -1,68 +1,37 @@
-/* @media only screen and (max-width: 600px) {
-    .border-z{
-        margin-right: -5px;
-        margin-left: -70px;
-        margin-top: 20px;
+
+
+@media (min-width: 600px) {
+    #contact {
+        padding-right: 10px;
+        padding-left: 10px;
+    
     }
-     .border-media{
-        margin-left: -22px;
-        margin-right: -22px;
-        
-    }
-    .border-op{
-        margin-left: 50px;
-        margin-right: -10px;
-    }
-    .border-form{
-        margin-left: 2px;
-        margin-right: -4px;
-    }
-    .media-1{
-        width: 35px;
-        height: 35px;
-        
-    }
-    .media-2{
-        width: 35px;
-        height: 35px;
-        
-    }
-    .media-3{
-        width: 35px;
-        height: 35px;
-        
-    }
-    .media-4{
-        width: 35px;
-        height: 35px;
-        
-    }
-    .media-5{
-        width: 35px;
-        height: 35px;
-        
-    }
-    .media-6{
-        width: 35px;
-        height: 35px;
+    .icon-logo a{
+        margin-left: 15px;
+        margin-right: 15px;
        
     }
-    
-    .content h2 span{
-        font-size: 57px;
-        margin-left: -6px;
+}
+@media(min-width: 1200px) {
+    #project{
+        margin-right: -30px;
+    }
+    .icon-logo a{
+        margin-left: 20px;
+        margin-right: 20px;
        
     }
-    .container{
-        text-align: center;
-    }
-    .icon-logo{
-        margin-left: 78px;
-    }
+}
+@media (max-width: 600px){
+    #contact{
+        padding-right: 10px;
+        padding-left: 10px;
     
-    
-} */
-@media (max-width: 600px) and (max-width: 850px){
+    }
+   
+    #project{
+        margin-left: -17px;
+    }
     .border-z{
         margin-right: -7px;
         margin-left: -68px;
@@ -71,7 +40,7 @@
     .border-media{
         margin-left: -22px;
         margin-right: -22px;
-        /* text-align: center; */
+        
     }
     .border-op{
         margin-left: 48px;
@@ -121,6 +90,6 @@
         text-align: center;
     }
     .icon-logo{
-        margin-left: 78px;
+        margin-left: 58px;
     }
 } 
