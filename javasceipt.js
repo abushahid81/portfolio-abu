@@ -7,18 +7,29 @@ let typingEffect = new Typed("#typo", {
     backDelay: 1000,
 
 });
-ScrollReveal().reveal('.content,.icon-logo', {
-    origin: 'bottom',   // or 'top', 'left', 'right'
-    distance: '50px',   // How far from the edge of the viewport the element will be revealed
-    duration: 2000,      // Duration of the animation in milliseconds
-    delay: 200,         // Delay before the animation starts
+
+ScrollReveal().reveal('.content,.icon-logo,.about-ho', {
+    reset: true,
+    origin: 'bottom',
+    distance: '50px',
+    duration: 2000,
+    delay: 200,
     easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
 });
 
-ScrollReveal().reveal('.imagechanger', {
+ScrollReveal().reveal('.imagechanger,.about-move,.content', {
+    reset: true,
     origin: 'top',
     distance: '50px',
-    duration: 3000,
+    duration: 2000,
+    delay: 200,
+    easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
+});
+ScrollReveal().reveal('.about,.education', {
+    reset: true,
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
     delay: 200,
     easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
 });
