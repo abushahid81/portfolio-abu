@@ -8,7 +8,8 @@ let typingEffect = new Typed("#typo", {
 
 });
 
-ScrollReveal().reveal('.content,.icon-logo,.about-ho', {
+ScrollReveal().reveal('.content,.icon-logo,.about-ho,#profiles', {
+    setInterval: 600,
     reset: true,
     origin: 'bottom',
     distance: '50px',
@@ -17,15 +18,17 @@ ScrollReveal().reveal('.content,.icon-logo,.about-ho', {
     easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
 });
 
-ScrollReveal().reveal('.imagechanger,.about-move,.content', {
+ScrollReveal().reveal('.imagechanger,.about-move,.content,', {
+    setInterval: 600,
     reset: true,
     origin: 'top',
-    distance: '50px',
+    distance: '80px',
     duration: 2000,
     delay: 200,
-    easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
+    // easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
 });
 ScrollReveal().reveal('.about,.education', {
+    setInterval: 600,
     reset: true,
     origin: 'left',
     distance: '80px',
