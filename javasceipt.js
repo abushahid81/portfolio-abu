@@ -8,7 +8,7 @@ let typingEffect = new Typed("#typo", {
 
 });
 
-ScrollReveal().reveal('.content,.icon-logo,.about-ho,#profiles', {
+ScrollReveal().reveal('.content,.icon-logo,.about-ho,#about,#profiles,#contact', {
     setInterval: 600,
     reset: true,
     origin: 'bottom',
