@@ -1,5 +1,5 @@
 let typingEffect = new Typed("#typo", {
-    strings: ["MERN Stack Developer!"],
+    strings: ["Full Stack Developer!"],
     loop: true,
     innerWidth: 100,
     typeSpeed: 50,
